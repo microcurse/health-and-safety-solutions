@@ -1,6 +1,6 @@
 /**
-* Colors
-*/
+  * Colors
+  */
 
 :root {
   /* --main-link-color: #4188f2; */
@@ -18,7 +18,7 @@
 }
 
 .bg-gray-1 {
-  background-color: rgba(0,93,216,0.03) !important;
+  background-color: rgba(0, 93, 216, 0.03) !important;
 }
 
 /**
@@ -117,8 +117,8 @@ hr,
 }
 
 /**
-* Card Styles
-*/
+  * Card Styles
+  */
 
 .all-pad-1 {
   padding: 8px;
@@ -127,7 +127,7 @@ hr,
 .round-corners {
   border-radius: 2px;
 }
- 
+
 /**
-*
-*/
+  *
+  */
