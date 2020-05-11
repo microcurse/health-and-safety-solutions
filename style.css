@@ -1,109 +1,125 @@
-
 /**
-* Variables
+* Colors
 */
 
 :root {
-    /* --main-link-color: #4188f2; */
-    --main-link-color: #4250C9;
-    --primary-color: #29317d;
-    --accent-color: #a42a2a;
-    --action-stations-color: #ec1f27;
-    --mobile-partitions-color: #A28E2F;
-    --nesting-tables-color: #f68e2e;
-  }
-  
-  .primary-color {
-    color: var(--primary-color);
-    color: #29317D;
-  }
-  
-  /**
+  /* --main-link-color: #4188f2; */
+  --main-link-color: #4250C9;
+  --primary-color: #29317d;
+  --accent-color: #a42a2a;
+  --action-stations-color: #ec1f27;
+  --mobile-partitions-color: #A28E2F;
+  --nesting-tables-color: #f68e2e;
+}
+
+.primary-color {
+  color: var(--primary-color);
+  color: #29317D;
+}
+
+.bg-gray-1 {
+  background-color: rgba(0,93,216,0.03) !important;
+}
+
+/**
   * Default Styles and Resets
   */
-  
-  body {
-    font-size: 16px;
-    font-family: 'proxima-nova';
-    color: #333;
-  }
-  
-  p {
-    color: #333;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: 'proxima-nova';
-    font-weight: inherit;
-    text-transform: none;
-  }
-  
-  h1 {
-    font-weight: bold;
-  }
-  
-  h2.card-title {
-    text-transform: none;
-    font-size: 22px;
-  }
-  
-  h2 {
-    font-weight: bold;
-  }
-  
-  hr, .hr.divider {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  
-  .empty-category-block h2::before {
-    width: 72px;
-  }
-  
-  /**
+
+body {
+  font-size: 16px;
+  font-family: 'proxima-nova', 'Proxima Nova';
+  color: #333;
+}
+
+p {
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'proxima-nova', 'Proxima Nova';
+  font-weight: inherit;
+  text-transform: none;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2.card-title {
+  text-transform: none;
+  font-size: 22px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+hr,
+.hr.divider {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.empty-category-block h2::before {
+  width: 72px;
+}
+
+/**
   * Atomic Styles 
   */
-  
-  /* Flex containers and items */
-  .container-flex,
-  .flex-container {
-    display: -ms-flexbox;
-    display: -moz-box;
-    display: -webkit-flex;
-    display: -webkit-box;
-    display: flex;
-  }
-  
-  /* Old, need to delete */
-  .flex {
-    display: flex;
-  }
-  
-  .flex-yalign-center {
-    align-items: center;
-  }
-  
-  .flex-xalign-center {
-    justify-content: center;
-  }
-  
-  .flex-flow-rw {
-    flex-flow: row wrap;
-  }
-  
-  .two-col {
-    flex: 50%;
-  }
-  
-  /* Grid containers */
-  .container-grid {
-    display: -ms-grid;
-    display: -moz-grid;
-    display: -webkit-grid;
-    display: grid;
-  }
+
+/* Flex containers and items */
+.container-flex,
+.flex-container {
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: flex;
+}
+
+/* Old, need to delete */
+.flex {
+  display: flex;
+}
+
+.flex-yalign-center {
+  align-items: center;
+}
+
+.flex-xalign-center {
+  justify-content: center;
+}
+
+.flex-flow-rw {
+  flex-flow: row wrap;
+}
+
+.two-col {
+  flex: 50%;
+}
+
+/* Grid containers */
+.container-grid {
+  display: -ms-grid;
+  display: -moz-grid;
+  display: -webkit-grid;
+  display: grid;
+}
+
+/**
+* Card Styles
+*/
+
+.all-pad-1 {
+  padding: 8px;
+}
+
+.round-corners {
+  border-radius: 2px;
+}
