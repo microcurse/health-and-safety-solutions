@@ -104,6 +104,10 @@ hr,
   flex: 50%;
 }
 
+.one-third {
+  flex: 33%;
+}
+
 /* Grid containers */
 .container-grid {
   display: -ms-grid;
@@ -123,3 +127,7 @@ hr,
 .round-corners {
   border-radius: 2px;
 }
+ 
+/**
+*
+*/
