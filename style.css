@@ -1,6 +1,6 @@
 /**
-  * Colors
-  */
+* Colors
+*/
 
 :root {
   /* --main-link-color: #4188f2; */
@@ -18,8 +18,12 @@
 }
 
 .bg-gray-1 {
-  background-color: rgba(0, 93, 216, 0.03) !important;
+  background-color: rgba(0,93,216,0.03) !important;
 }
+
+.bg-blue-gray-1 {
+  background-color: #F7FAFE;
+} 
 
 /**
   * Default Styles and Resets
@@ -67,6 +71,12 @@ hr,
 
 .empty-category-block h2::before {
   width: 72px;
+}
+
+.page-caption {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: light;
 }
 
 /**
@@ -117,17 +127,25 @@ hr,
 }
 
 /**
-  * Card Styles
-  */
+* Card Styles
+*/
 
 .all-pad-1 {
-  padding: 8px;
+  padding: 1rem;
+}
+
+.all-pad-2 {
+  padding: 2rem;
+}
+
+.all-pad-3 {
+  padding: 3rem;
 }
 
 .round-corners {
   border-radius: 2px;
 }
-
+ 
 /**
-  *
-  */
+  * 
+*/
