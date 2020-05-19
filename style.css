@@ -119,12 +119,32 @@ hr,
 }
 
 /* Grid containers */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.grid + .grid {
+  margin-top: 2rem;
+}
+
+.grid-xy-center {
+  justify-items: center;
+  align-items: center;
+}
+
 .container-grid {
   display: -ms-grid;
   display: -moz-grid;
   display: -webkit-grid;
   display: grid;
 }
+
+.z-index-1 {
+  z-index: 1;
+} 
 
 /**
   * Health and Safety Page
