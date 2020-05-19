@@ -18,12 +18,9 @@
 }
 
 .bg-gray-1 {
-  background-color: rgba(0,93,216,0.03) !important;
+  background-color: #F7FAFE;
 }
 
-.bg-blue-gray-1 {
-  background-color: #F7FAFE;
-} 
 
 /**
   * Default Styles and Resets
