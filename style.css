@@ -1,5 +1,5 @@
 /**
-* Colors
+  * Colors
 */
 
 :root {
@@ -27,7 +27,7 @@
 
 /**
   * Default Styles and Resets
-  */
+*/
 
 body {
   font-size: 16px;
@@ -78,15 +78,9 @@ hr,
   width: 72px;
 }
 
-.page-title__caption {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: light;
-}
-
 /**
   * Atomic Styles 
-  */
+*/
 
 /* Flex containers and items */
 .container-flex,
@@ -136,7 +130,7 @@ hr,
 }
 
 /**
-* Card Styles
+  * Card Styles
 */
 
 .all-pad-1 {
@@ -156,5 +150,21 @@ hr,
 }
  
 /**
-  * 
+  * Health and Safety Page
 */
+
+.page-title--category-name {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: light;
+}
+
+.page-title--why {
+  font-weight: 700; 
+  font-size: 24px; 
+  padding-bottom: 14px;
+}
+
+.page-title--why__content {
+  padding-bottom: 14px;
+}
