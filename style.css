@@ -130,28 +130,13 @@ hr,
 }
 
 /**
-  * Card Styles
-*/
-
-.all-pad-1 {
-  padding: 1rem;
-}
-
-.all-pad-2 {
-  padding: 2rem;
-}
-
-.all-pad-3 {
-  padding: 3rem;
-}
-
-.round-corners {
-  border-radius: 2px;
-}
- 
-/**
   * Health and Safety Page
 */
+
+.page-title-section {
+  text-align: center;
+  padding: 2.4rem 0; 
+}
 
 .page-title--category-name {
   text-transform: uppercase;
