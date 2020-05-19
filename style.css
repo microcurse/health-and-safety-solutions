@@ -160,11 +160,6 @@ hr,
 }
 
 .page-title--why {
-  font-weight: 700; 
-  font-size: 24px; 
-  padding-bottom: 14px;
-}
-
-.page-title--why__content {
+  font-size: 18px; 
   padding-bottom: 14px;
 }
