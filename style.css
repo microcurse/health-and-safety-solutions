@@ -165,3 +165,7 @@ hr,
   font-size: 18px; 
   padding-bottom: 14px;
 }
+
+.boxed-content {
+  display: inline-block;
+}
