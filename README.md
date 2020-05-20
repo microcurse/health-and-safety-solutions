@@ -1,2 +1,2 @@
 # health-and-safety-solutions
- Health and Safety Solutions Page
+ Health and Safety Solutions Pages
