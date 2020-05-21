@@ -169,3 +169,12 @@ hr,
 .boxed-content {
   display: inline-block;
 }
+
+/* Shop page mods */
+.filter-wrap {
+  display: none;
+}
+
+.shop-filters-area {
+  display: none;
+}
