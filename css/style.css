@@ -135,6 +135,10 @@ hr,
   align-items: center;
 }
 
+.grid-x-center {
+  justify-items: center;
+}
+
 .container-grid {
   display: -ms-grid;
   display: -moz-grid;
@@ -152,7 +156,7 @@ hr,
 
 .page-title-section {
   text-align: center;
-  padding: 2.4rem 0; 
+  padding: 2.6rem 0; 
 }
 
 .page-title--category-name {
@@ -161,9 +165,13 @@ hr,
   font-weight: light;
 }
 
+.page-title--why__big {
+  font-size: 36px;
+  font-weight: bold;
+}
+
 .page-title--why {
   font-size: 18px; 
-  padding-bottom: 14px;
 }
 
 .boxed-content {
