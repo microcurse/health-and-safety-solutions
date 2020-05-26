@@ -191,6 +191,10 @@ hr,
   padding: 0 .8rem;
 }
 
+.page-template-full-width-slick .section {
+  padding: 40px 0;
+}
+
 /* Local Fixes */
 img {
   width: 100%;
