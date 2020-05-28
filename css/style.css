@@ -94,7 +94,7 @@ hr,
 
 .flex-gap {
   column-gap: .5rem;
-  row-gap: 1rem;
+  row-gap: .5rem;
 }
 
 .flex-gap > * {
