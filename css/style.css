@@ -21,7 +21,6 @@
   background-color: #F7FAFE;
 }
 
-
 /**
   * Default Styles and Resets
 */
@@ -76,7 +75,7 @@ hr,
 }
 
 /**
-  * Atomic Styles 
+  * Utility Styles 
 */
 
 /* Flex containers and items */
@@ -89,16 +88,24 @@ hr,
   display: flex;
 }
 
-/* Old, need to delete */
 .flex {
   display: flex;
 }
 
-.flex-yalign-center {
+.flex-gap {
+  column-gap: .5rem;
+  row-gap: 1rem;
+}
+
+.flex-gap > * {
+  flex: 1 1 49%;
+}
+
+.flex-y-center {
   align-items: center;
 }
 
-.flex-xalign-center {
+.flex-x-center {
   justify-content: center;
 }
 
@@ -184,6 +191,7 @@ hr,
 
 .grid-carousel .box {
   padding: 0 .8rem;
+  text-align: center;
 }
 
 .page-template-full-width-slick .section{
@@ -210,6 +218,13 @@ hr,
   text-transform: none !important;
 }
 
+.fancy-tagline {
+  font-family: 'Lobster Two';
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.4rem;
+  color: #29317d;
+}
 
 /* Shop page mods */
 .filter-wrap {
@@ -222,7 +237,8 @@ hr,
 
 /* Local Fixes */
 img {
-  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 .slick-prev:before, .slick-next:before {
