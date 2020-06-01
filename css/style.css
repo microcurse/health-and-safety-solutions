@@ -214,7 +214,7 @@ hr,
   margin-bottom: 16px;
 }
 
-.box h3 {
+.box .box-title {
   text-transform: none !important;
 }
 
