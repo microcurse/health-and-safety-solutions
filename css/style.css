@@ -187,6 +187,7 @@ hr,
 
 .circle img{
   margin-bottom: 16px;
+  transform: rotate(180deg);
 }
 
 .grid-carousel .box {
@@ -218,12 +219,27 @@ hr,
   text-transform: none !important;
 }
 
+/* Al Fresco */
 .fancy-tagline {
-  font-family: 'Lobster Two';
-  font-weight: bold;
+  font-family: 'skolar latin';
   font-style: italic;
-  font-size: 1.4rem;
+  font-weight: 600;
+  font-size: 2rem;
   color: #29317d;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.fancy-tagline::after {
+  content: '';
+  position: absolute;
+  left: -8px;
+  display: inline-block;
+  height: 8px;
+  width: 100px;
+  bottom: 40px;
+  background-color: #8FDEFC;
+  z-index: -1; 
 }
 
 .blue-sq-bg::before {
