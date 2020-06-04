@@ -242,16 +242,29 @@ hr,
   z-index: -1; 
 }
 
-.blue-sq-bg::before {
-  content: '';
-  display: block;
-  background: linear-gradient(#2DACDC, #8FDEFC);
-  right: 500px;
-  top: 200px;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  z-index: -1;
+.health-n-safety .invis-card {
+  text-align: left;
+  border: 0px;
+  padding: 4px 16px;
+  transition: none;
+}
+
+.health-n-safety h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.health-n-safety p {
+  line-height: normal;
+}
+
+.health-n-safety .invis-card:hover {
+  box-shadow: 0px 0px 0px rgba(0,0,0, .0);
+}
+
+.health-n-safety .invis-card a h3:hover {
+  text-decoration: underline;
 }
 
 /* Shop page mods */
