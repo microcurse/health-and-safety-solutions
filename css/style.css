@@ -114,11 +114,11 @@ hr,
   flex-flow: row wrap;
 }
 
-.two-col {
+.flex-half {
   flex: 50%;
 }
 
-.one-third {
+.flex-third {
   flex: 33%;
 }
 
@@ -176,6 +176,7 @@ hr,
 .page-title--why__big {
   font-size: 36px;
   font-weight: bold;
+  padding-bottom: 20px;
 }
 
 .page-title--why {
