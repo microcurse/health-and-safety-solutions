@@ -98,7 +98,8 @@ hr,
 }
 
 .flex-gap > * {
-  flex: 1 1 49%;
+  /* flex: 1 1 49%; */
+  flex: none;
 }
 
 .flex-y-center {
@@ -225,20 +226,15 @@ hr,
   font-weight: 600;
   font-size: 2rem;
   color: #29317d;
-  padding-bottom: 2rem;
   position: relative;
+  padding-bottom: 2rem;
 }
 
-.fancy-tagline::after {
-  content: '';
-  position: absolute;
-  left: -8px;
-  display: inline-block;
-  height: 8px;
-  width: 100px;
-  bottom: 40px;
-  background-color: #8FDEFC;
-  z-index: -1; 
+.slide p{
+  font-size: 20px;
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
 }
 
 .health-n-safety .invis-card {
