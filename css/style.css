@@ -130,7 +130,7 @@ hr,
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 2rem;
 }
 
@@ -231,11 +231,13 @@ hr,
   padding-bottom: 2rem;
 }
 
-.slide p{
+.slide .block-content{
   font-size: 20px;
-  padding: 1rem;
-  margin: 0;
-  text-align: center;
+  padding: 24px 0;
+}
+
+.block-content p {
+  max-width: 75%;
 }
 
 .health-n-safety .invis-card {
