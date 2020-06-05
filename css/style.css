@@ -74,6 +74,18 @@ hr,
   width: 72px;
 }
 
+.has-underline {
+  text-decoration: underline;
+}
+
+/* Button styling */
+button, .btn, .button {
+  transition: .1s ease-in-out;
+  background:#2C3CC9;
+  text-transform: none;
+  color: #fff;
+}
+
 /**
   * Utility Styles 
 */
@@ -164,23 +176,31 @@ hr,
 
 .page-title-section {
   text-align: center;
-  padding: 2.6rem 0; 
+  padding: 60px 0; 
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-.page-title--category-name {
+.page-title-section--category-name {
   text-transform: uppercase;
-  font-size: 16px;
-  font-weight: light;
+  padding: 16px 0;
 }
 
-.page-title--why__big {
+.page-title-section--why__big {
   font-size: 36px;
   font-weight: bold;
-  padding-bottom: 20px;
 }
 
-.page-title--why {
+.page-title-section--why {
   font-size: 18px; 
+}
+
+.page-title-section p {
+  font-size: 18px;
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+  margin-top: 0px;
 }
 
 .boxed-content {
@@ -228,16 +248,12 @@ hr,
   font-size: 2rem;
   color: #29317d;
   position: relative;
-  padding-bottom: 2rem;
+  padding-bottom: 24px;
 }
 
 .slide .block-content{
   font-size: 20px;
-  padding: 24px 0;
-}
-
-.block-content p {
-  max-width: 75%;
+  padding: 24px 0 0;
 }
 
 .health-n-safety .invis-card {
