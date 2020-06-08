@@ -36,6 +36,11 @@ body {
   max-width: 1280px;
 }
 
+.full-container {
+  margin: 0 auto;
+  width: 100%;
+}
+
 p {
   color: #333;
 }
@@ -170,9 +175,32 @@ button, .btn, .button {
   z-index: 1;
 } 
 
+/* Positioning */
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+/* Image */
+.img-cap-center {
+  top: 16%;
+  left: 30%;
+}
+
 /**
   * Health and Safety Page
 */
+
+#health-n-safety-banner {
+  background: url('https://www.forbesindustries.com/wp-content/uploads/2020/06/hotel-heart.jpg');
+  background-size: cover;
+  background-position-x: 50%;
+  text-shadow: 1px 1px #00000091;
+  padding: 40px 0 60px 0;
+}
 
 .page-title-section {
   padding: 60px 0; 
@@ -203,7 +231,7 @@ button, .btn, .button {
 }
 
 .block-content p {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .boxed-content {
@@ -232,7 +260,19 @@ button, .btn, .button {
 }
 
 .page-template-full-width-slick .slick-prev {
-  left: 0!important;
+  left: 0 !important;
+}
+
+.page-template-full-width-slick .page-title-section {
+  color: #fff;
+}
+
+.page-template-full-width-slick .page-title-section--category-name {
+  color: #fff;
+}
+
+.page-template-full-width-slick .page-title-section p{
+  color: #fff;
 }
 
 .box img {
