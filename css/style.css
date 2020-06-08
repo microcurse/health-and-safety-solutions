@@ -175,15 +175,15 @@ button, .btn, .button {
 */
 
 .page-title-section {
-  text-align: center;
   padding: 60px 0; 
-  max-width: 960px;
   margin: 0 auto;
 }
 
 .page-title-section--category-name {
   text-transform: uppercase;
   padding: 16px 0;
+  letter-spacing: .1rem;
+  color: #666;
 }
 
 .page-title-section--why__big {
@@ -198,9 +198,12 @@ button, .btn, .button {
 .page-title-section p {
   font-size: 18px;
   max-width: 600px;
-  text-align: center;
   margin: 20px auto;
   margin-top: 0px;
+}
+
+.block-content p {
+  margin: 0;
 }
 
 .boxed-content {
@@ -267,10 +270,6 @@ button, .btn, .button {
   font-size: 18px;
   font-weight: 600;
   margin: 8px 0;
-}
-
-.health-n-safety p {
-  line-height: normal;
 }
 
 .health-n-safety .invis-card:hover {
