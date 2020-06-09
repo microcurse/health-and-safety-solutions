@@ -190,6 +190,19 @@ button, .btn, .button {
   left: 30%;
 }
 
+/* Spacers */
+.spacer-sm {
+  padding: 12px 0;
+}
+
+.spacer-md {
+  padding: 24px 0;
+}
+
+.spacer-lg {
+  padding: 40px 0;
+}
+
 /**
   * Health and Safety Page
 */
@@ -204,7 +217,6 @@ button, .btn, .button {
 }
 
 .page-title-section {
-  padding: 60px 0; 
   margin: 0 auto;
 }
 
@@ -319,6 +331,15 @@ button, .btn, .button {
 
 .health-n-safety .invis-card a h3:hover {
   text-decoration: underline;
+}
+
+.hns-content {
+  max-width: 600px;
+}
+
+.page-title--category-name {
+  text-transform: uppercase;
+  letter-spacing: .4px;
 }
 
 /* Shop page mods */
