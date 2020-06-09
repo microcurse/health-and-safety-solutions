@@ -89,6 +89,9 @@ button, .btn, .button {
   background:#2C3CC9;
   text-transform: none;
   color: #fff;
+  padding: 1em;
+  border-radius: 2px;
+  text-decoration: none;
 }
 
 /**
