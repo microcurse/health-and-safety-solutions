@@ -154,9 +154,9 @@ button, .btn, .button {
   grid-gap: 2rem;
 }
 
-.grid + .grid {
+/* .grid + .grid {
   margin-top: 2rem;
-}
+} */
 
 .grid-xy-center {
   justify-items: center;
