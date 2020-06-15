@@ -69,6 +69,10 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-weight: bold;
+}
+
 hr,
 .hr.divider {
   margin-top: 0px;
@@ -146,6 +150,10 @@ button, .btn, .button {
   text-align: center;
 }
 
+.sp-between {
+  justify-content: space-between;
+}
+
 /* Grid containers */
 
 .grid {
@@ -185,6 +193,10 @@ button, .btn, .button {
 
 .pos-abs {
   position: absolute;
+}
+
+.m-center {
+  margin: 0 auto;
 }
 
 /* Image */
@@ -247,8 +259,9 @@ button, .btn, .button {
 }
 
 .block-content p {
+  font-size: 18px;
   margin: 0 auto;
-}
+} 
 
 .boxed-content {
   display: inline-block;
@@ -343,6 +356,20 @@ button, .btn, .button {
 .page-title--category-name {
   text-transform: uppercase;
   letter-spacing: .4px;
+}
+
+/* Safety Touch Antimicrobial Copper Film */
+.divider {
+  content: '';
+  border-right: 1px solid #333;
+  height: 80px;
+  width: 1px;
+  padding: 0 8px;
+  margin: 0 16px 0 8px;
+}
+
+.italic-caption {
+  font-style: italic;
 }
 
 /* Shop page mods */
