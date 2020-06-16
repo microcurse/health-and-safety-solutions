@@ -388,6 +388,7 @@ button, .btn, .button {
 }
 
 /* Safety Touch Antimicrobial Copper Film */
+
 .safety-touch-antimicrobial-copper-film .card {
   max-width: 350px;
 }
@@ -413,6 +414,22 @@ button, .btn, .button {
 
 .italic-caption {
   font-style: italic;
+}
+
+ul.checkmark {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+ul.checkmark li:before {
+  content: '';
+  background: url('/images/circle-check-icon.png') no-repeat;
+  padding: 7px 15px;
+}
+
+ul.checkmark li {
+  flex: 1 1 25%;
+  padding: 12px 0;
 }
 
 /* Shop page mods */
