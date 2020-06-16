@@ -208,7 +208,7 @@ button, .btn, .button {
   position: absolute;
 }
 
-.m-center {
+.mg-center {
   margin: 0 auto;
 }
 
@@ -231,20 +231,8 @@ button, .btn, .button {
   padding: 40px 0;
 }
 
-.yellow-alert {
-  background: #FFFFF8;
-  border: 1px solid #FFEDBC;
-  border-radius: 50px;
+.max-width-900 {
   max-width: 900px;
-  margin: 0 auto;
-}
-
-.con-900 {
-  max-width: 900px;
-}
-
-.mg-center {
-  margin: 0 auto;
 }
 
 /**
@@ -389,17 +377,25 @@ button, .btn, .button {
 
 /* Safety Touch Antimicrobial Copper Film */
 
-.safety-touch-antimicrobial-copper-film .card {
+.safety-touch-antimicrobial-copper-film .box {
   max-width: 350px;
 }
 
-.divider {
+.y-divider {
   content: '';
   border-right: 1px solid #333;
   height: 80px;
   width: 1px;
   padding: 0 8px;
   margin: 0 16px 0 8px;
+}
+
+.yellow-alert {
+  background: #FFFFF8;
+  border: 1px solid #FFEDBC;
+  border-radius: 50px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .yellow-alert img {
@@ -410,6 +406,7 @@ button, .btn, .button {
 
 .yellow-alert p {
   padding-left: 116px;
+  margin: 8px;
 }
 
 .italic-caption {
@@ -418,17 +415,16 @@ button, .btn, .button {
 
 ul.checkmark {
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 ul.checkmark li:before {
   content: '';
-  background: url('/images/circle-check-icon.png') no-repeat;
+  background: url('https://www.forbesindustries.com/wp-content/uploads/2020/06/circle-check-icon.png') no-repeat;
   padding: 7px 15px;
 }
 
 ul.checkmark li {
-  flex: 1 1 25%;
   padding: 12px 0;
 }
 
